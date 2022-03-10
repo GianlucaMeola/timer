@@ -15,8 +15,6 @@ useEffect( () => {
   }else{
     clearInterval(interval);
   }
-
-  console.log(start)
   return () => clearInterval(interval);
 }, [start])
 //in html: 
